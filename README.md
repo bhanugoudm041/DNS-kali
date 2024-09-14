@@ -21,9 +21,10 @@ Configure dns server with resolvectl command - resolved.service cli tool
 
 # Enable default DNS server on kali
 Edit /etc/resolv.conf and a name server entry with google dns servers
-
-```nano /etc/resolv.conf
-nameserver 8.8.8.8```
+```
+nano /etc/resolv.conf
+nameserver 8.8.8.8
+```
 now its uses google to resolve domains
 ![image](https://github.com/user-attachments/assets/8b9105c8-ed44-44f4-b677-de5eb5fce6eb)
 
